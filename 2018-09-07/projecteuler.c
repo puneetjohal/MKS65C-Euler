@@ -10,15 +10,15 @@ int main(){
   }
   printf("Sum of all multple of 3 or 5 between 0 and 1000: %d \n",sum);
   //problem 5
-  bool divis = false;
+  int divis = 0;
   int num = 0;
   int k;
   while (!divis){
     num+=1;
-    divis = true;
+    divis = 1;
     for (k=1 ; k<=20 ; k+=1){
       if (num%k != 0){
-        divis = false;
+        divis = 0;
       }
     }
   }
