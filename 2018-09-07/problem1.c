@@ -7,6 +7,6 @@ int main(){
       sum += i;
     }
   }
-  printf(sum + "\n");
+  printf(sum);
   return 0;
 }
